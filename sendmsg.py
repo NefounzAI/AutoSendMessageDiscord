@@ -1,5 +1,4 @@
 import requests
-import time
 
 url = "UrlMessageHere/tokenid"
 
@@ -11,7 +10,7 @@ def send(msg):
     payload = {"content": msg}
     r = requests.post(url, json=payload, headers=headers)
     print("Status:", r.status_code, "| Pesan:", msg)
-
+    
 try:
     send("🟢 Founz System Activated")
 
