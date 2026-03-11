@@ -21,11 +21,15 @@ Penggunaan token akun (self automation) dapat melanggar Terms of Service Discord
 
 * Python 3.8+
 * Library `requests`
+* Library `time`
 
 Install dependency:
 
 ```bash
 pip install requests
+```
+```bash
+pip install time
 ```
 
 ---
